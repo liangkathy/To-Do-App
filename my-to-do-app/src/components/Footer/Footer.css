@@ -1,0 +1,33 @@
+.footer {
+    bottom: 0;
+    height: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 20px;
+    align-items: center;
+    color: rgb(89, 89, 89);
+}
+
+.site-settings {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 95%;
+}
+
+.logo-footer {
+    font-size: 2.5em;
+    letter-spacing: 1.5px;
+    color: rgb(73, 94, 132);
+    font-weight: 700;
+}
+
+.toggle-container {
+    display: flex;
+    flex-direction: column;
+    font-size: .7em;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}

@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-right: 50px;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+}
+
+.logo {
+    font-size: 3em;
+    letter-spacing: 1.5px;
+    color: rgb(128, 155, 206);
+    font-weight: 700;
+}
+
+#logo-link a:hover {
+    text-decoration: none;
+}
+
+.list-count {
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    padding: .15rem 0.4rem;
+    font-size: 0.8rem;
+    position: relative;
+    top: -33px;
+    right: 8px;
+}
+
+

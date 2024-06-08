@@ -1,0 +1,31 @@
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+.nav-list li {
+    list-style: none;
+    font-size: 1.3em;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(128, 155, 206, .75);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(128, 155, 206, 1);
+}
+
+a:visited {
+    color: rgb(128, 155, 206, .75);
+}
+
+@media screen and (min-width: 768px) {
+    .nav-list {
+        width: 650px;
+    }
+}
+    

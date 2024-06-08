@@ -1,0 +1,30 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    width: 370px;
+    font-size: 1.2rem;
+}
+
+li span {
+    text-wrap: wrap;
+    word-wrap: break-word;
+    width: 45%;
+}
+
+/* adds border only between two list elements */
+ul > .task + .task {
+    border-top: 1px solid lightgray;
+}
+
+.trash {
+    cursor: pointer;
+}
+
+.checkbox {
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    cursor: pointer;
+}

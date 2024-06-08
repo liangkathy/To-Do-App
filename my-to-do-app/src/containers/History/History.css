@@ -1,0 +1,7 @@
+.history-container {
+    margin-left: 20px;
+}
+
+.task-history .deleted-task {
+    list-style-type: none;
+}
