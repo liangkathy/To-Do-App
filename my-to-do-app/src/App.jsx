@@ -61,7 +61,8 @@ const App = () => {
       //add all tasks to deleted before clearing main to do list
       const newDeletedList = [...deletedList, ...toDoList]
       setDeletedList(newDeletedList)
-
+      
+      setHistoryList([])
       setToDoList([])
     }
 
