@@ -13,6 +13,7 @@
     height: 550px;
     width: 400px;
     border-radius: 9px;
+    border: 1px solid gray;
 }
 
 .to-do-header {
