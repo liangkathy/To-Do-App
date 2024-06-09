@@ -13,6 +13,10 @@
     margin-left: 10px;
 }
 
+.search-button:hover {
+    background-color: rgb(106, 132, 179);
+}
+
 .search-result {
     list-style: none;
     margin-left: 10px;
