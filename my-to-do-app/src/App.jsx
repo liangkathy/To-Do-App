@@ -17,27 +17,27 @@ const App = () => {
     const [theme, setTheme] = useState("light")
     const [debug, setDebug] = useState("off")
     const [toDoList, setToDoList] = useState([
-      {
-        id: 1,
-        name: "laundry",
-        isComplete: false,
-        isChecked: false,
-        isDeleted: false
-      },
-      {
-        id: 2,
-        name: "groceries",
-        isComplete: false,
-        isChecked: false,
-        isDeleted: false
-      },
-      {
-        id: 3,
-        name: "homework",
-        isComplete: false,
-        isChecked: false,
-        isDeleted: false
-      }
+      // {
+      //   id: 1,
+      //   name: "laundry",
+      //   isComplete: false,
+      //   isChecked: false,
+      //   isDeleted: false
+      // },
+      // {
+      //   id: 2,
+      //   name: "groceries",
+      //   isComplete: false,
+      //   isChecked: false,
+      //   isDeleted: false
+      // },
+      // {
+      //   id: 3,
+      //   name: "homework",
+      //   isComplete: false,
+      //   isChecked: false,
+      //   isDeleted: false
+      // }
     ])
 
     const [historyList, setHistoryList] = useState([])

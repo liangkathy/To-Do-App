@@ -8,13 +8,13 @@
 }
 
 .search-button {
-    background-color: rgb(128, 155, 206);
-    border-color: rgb(128, 155, 206);
+    background-color: rgb(137, 198, 186);
+    border-color: rgb(137, 198, 186);
     margin-left: 10px;
 }
 
 .search-button:hover {
-    background-color: rgb(106, 132, 179);
+    background-color: rgb(114, 177, 165);
 }
 
 .search-result {
