@@ -19,11 +19,11 @@ const Footer = () => {
 
                 </div>
 
-                <div className="toggle-container">
+                {/* <div className="toggle-container">
                     <Toggle className={"debugger"} />
                     <label>Debugger</label>
 
-                </div>
+                </div> */}
             </div>
         </footer>
     )

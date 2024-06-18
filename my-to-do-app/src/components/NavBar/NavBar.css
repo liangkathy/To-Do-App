@@ -11,16 +11,16 @@
 
 a:link {
     text-decoration: none;
-    color: rgb(128, 155, 206, .75);
+    color: rgb(128, 206, 190, 0.75);
 }
 
 a:hover {
     text-decoration: underline;
-    color: rgb(128, 155, 206, 1);
+    color: rgb(128, 206, 190);
 }
 
 a:visited {
-    color: rgb(128, 155, 206, .75);
+    color: rgba(128, 206, 190, 0.75);
 }
 
 @media screen and (min-width: 768px) {

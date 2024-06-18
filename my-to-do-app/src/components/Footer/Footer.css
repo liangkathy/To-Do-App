@@ -1,4 +1,5 @@
 .footer {
+    position: fixed;
     bottom: 0;
     height: 80px;
     display: flex;
@@ -14,13 +15,6 @@
     justify-content: flex-end;
     align-items: center;
     width: 95%;
-}
-
-.logo-footer {
-    font-size: 2.5em;
-    letter-spacing: 1.5px;
-    color: rgb(73, 94, 132);
-    font-weight: 700;
 }
 
 .toggle-container {
