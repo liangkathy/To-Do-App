@@ -46,7 +46,7 @@ const Home = ({toDoList, refProp, onAddTask, onDeleteAll, onDeleteOne, onHandleC
                 </form>
 
                 
-                <div className={`${count > 3 ? "list-container" : ''}`}>
+                <div className={`${count > 4 ? "list-container" : ''}`}>
                     <ul>
                         {toDoList.map((task,i) => {
                            return (
